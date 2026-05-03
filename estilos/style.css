@@ -36,7 +36,7 @@ section#login {
 }
 
 section#login > div#imagem {
-    height: 180px;
+    height: 200px;
     background-image: url(../imagens/logots.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,10 +59,27 @@ section#login > div#login > h1 {
 
 section#login > div#login > p {
     text-align: center;
+    padding: 10px;
 } 
 
-form {
+div#mail {
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+
+div#senha {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+div#acess {
+    padding-top: 15px;
+    text-align: center;
+}
+
+div#rsenha {
     padding: 20px;
     text-align: center;
-    margin: auto;
 }
+

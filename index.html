@@ -19,20 +19,27 @@
                 <h1>Faça Login</h1>
                 <p>Seja Bem-vindo(a). Faça seu login para realizar suas compras!</p>
                 <form action="./estilos/acessar.js" method="post" autocomplete="on">
-                    <div>
-                        <label for="imail" id="mail">E-mail:</label>
-                        <input type="email" name="email" id="imail" size="25" required placeholder=" Digite seu e-mail" maxlength="80" autocomplete="email">
+                    <div id="mail">
+                        <label for="imail">E-mail:</label>
+                        <input type="email" name="email" id="imail" size="20" required placeholder=" Digite seu e-mail" maxlength="80" autocomplete="email">
                     </div>
 
-                    <div>
-                        <label for="isenha" id="senha">Senha:</label>
-                        <input type="password" name="senha" id="isenha" required placeholder=" Digite seu e-mail" maxlength="60" minlength="8" size="25" autocomplete="current-password">
+                    <div id="senha">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" required placeholder=" Digite seu e-mail" maxlength="60" minlength="8" size="20" autocomplete="current-password">
                     </div>
-                    <input type="submit" value="Acessar" id="acess">
 
+                    <div id="acess">
+                        <input type="submit" value="Acessar">
+                    </div>
 
                 </form>
             </div>
+
+            <div id="rsenha">
+                <a href="#" target="_blank">Redefinir senha</a>
+            </div>
+
         </section>
     </main>
     
