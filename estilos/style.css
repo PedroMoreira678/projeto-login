@@ -41,12 +41,11 @@ section#login > div#imagem {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 20px 20px 0px 0px;
     box-shadow: 0px 3px 10px black;
     display: block;
 }
 
-section#login > div#login > h1 {
+section#login > div#formulario > h1 {
     text-align: center;
     font-style: italic;
     font-weight: bolder;
@@ -57,7 +56,7 @@ section#login > div#login > h1 {
 
 }
 
-section#login > div#login > p {
+section#login > div#formulario > p {
     text-align: center;
     padding: 10px;
 } 
@@ -82,7 +81,7 @@ div#senha > input {
 }
 
 div#acess {
-    padding-top: 15px;
+    padding: 10px 10px;
     text-align: center;
 }
 
@@ -92,7 +91,7 @@ div#acess > input {
 }
 
 div#rsenha {
-    padding: 20px;
+    padding: 5px 5px;
     text-align: center;
 }
 
