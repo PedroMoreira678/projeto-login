@@ -78,6 +78,11 @@ div#acess {
     text-align: center;
 }
 
+div#acess > input {
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+
 div#rsenha {
     padding: 20px;
     text-align: center;
