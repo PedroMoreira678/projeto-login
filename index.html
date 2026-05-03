@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="shortcut icon" href="imagens/logo-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos/style.css">
+
+</head>
+<body>
+
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+
+            <div id="login">
+                <h1>Faça Login</h1>
+                <p>Seja Bem-vindo(a). Faça seu login para realizar suas compras!</p>
+                <form action="./estilos/acessar.js" method="post" autocomplete="on">
+                    <div>
+                        <label for="imail" id="mail">E-mail:</label>
+                        <input type="email" name="email" id="imail" size="25" required placeholder=" Digite seu e-mail" maxlength="80" autocomplete="email">
+                    </div>
+
+                    <div>
+                        <label for="isenha" id="senha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" required placeholder=" Digite seu e-mail" maxlength="60" minlength="8" size="25" autocomplete="current-password">
+                    </div>
+                    <input type="submit" value="Acessar" id="acess">
+
+
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
