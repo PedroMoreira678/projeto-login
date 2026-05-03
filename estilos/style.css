@@ -64,13 +64,21 @@ section#login > div#login > p {
 
 div#mail {
     text-align: center;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
     padding-top: 10px;
+}
+
+div#mail >input {
+    padding: 2px;
 }
 
 div#senha {
     text-align: center;
     padding-bottom: 3px;
+}
+
+div#senha > input {
+    padding: 2px;
 }
 
 div#acess {
